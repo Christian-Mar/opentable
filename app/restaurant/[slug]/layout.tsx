@@ -1,5 +1,10 @@
 import Header from './components/Header';
 
+export const metadata = {
+	title: 'Restaurant',
+	description: 'Next 13 project',
+};
+
 export default function RestaurantLayout({
 	children,
 }: {
